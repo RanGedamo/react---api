@@ -1,0 +1,53 @@
+@media screen and (max-width:600px) {
+    #img{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    #blue{
+        background-color: red;
+        width: 50vw;
+        height: 30vh;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    #green{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        color: yellow;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    #fast{
+        background-image: url(15c5742e-1120-4190-a0e6-71a6233c72ce_big.jpg);
+        background-size: cover;
+        width: 50vw;
+        height: 30vh;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    #blue2{
+        background-color: blue;
+        width: 50vw;
+        height: 30vh;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    #filter{
+        filter: grayscale(65%);
+    }
+    
+}
+@media screen and (max-width:600px) {
+    #a{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    
+}

@@ -1,0 +1,17 @@
+body{
+    background-image: url(14google-photo-videoSixteenByNineJumbo1600.jpg);
+    background-size: cover;
+}
+ul{
+color: transparent;
+transition: 5s;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+list-style-type: none;
+
+}
+ul:hover{
+    color: red;
+    
+}

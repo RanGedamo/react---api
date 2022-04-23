@@ -1,0 +1,100 @@
+@media screen and (min-width:600px) {
+        #ran{
+            width: 100px;
+            height: 100px;
+        }
+}
+@media screen and (max-width:600px) {
+    #ran{
+        width:30px;
+        height: 30px;
+    }
+}
+@media screen and (min-width: 600px) {
+    #img-ran{
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+    }
+}
+    @media screen and (max-width:600px) {
+        #img-ran{
+            background-color: red;
+            width: 150px;
+            height: 150px;
+        }
+    }
+    @media screen and (min-width:600px) {
+     #ran-text{
+         font-size: 80px;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         color: #fff;
+         background-color: black;
+     } 
+    }  
+     @media screen and (max-width:600px) {
+        #ran-text{
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(255, 251, 0);
+            background-color: black;
+        }
+     }
+     @media screen and (min-width:600px) {
+         #fast{
+             background-image: url(Israel-mountains.jpg);
+             background-size: cover;
+             width: 50vw;
+             height: 50vh;
+         }
+         
+     }
+     @media screen and (max-width:600px) {
+         #fast{
+            background-image: url(15c5742e-1120-4190-a0e6-71a6233c72ce_big.jpg);
+            background-size: cover;
+            width: 50vw;
+            height: 50vh;
+         }
+         
+     }
+     @media screen and (min-width:600px) {
+         #round{
+             background-color: blue;
+             border: 3px solid;
+             border-radius: 100%;
+             width: 50vw;
+             height: 50vh;
+         }
+         
+     }
+     @media screen and (max-width:600px) {
+         #round{
+             background-color: blue;
+             width: 50vw;
+             height: 50vh;
+         }
+         
+     }
+     @media screen and (min-width:600px) {
+         #givati{
+             background-image: url(givati.jpg);
+             background-size: cover;
+             background-repeat: no-repeat;
+             filter: blur(5px);
+             width: 50vw;
+             height: 50vh;
+         }
+         
+     }
+     @media screen and (max-width:600px) {
+         #givati{
+             background-image: url(givati.jpg);
+             background-size: cover;
+             background-repeat: no-repeat;
+             filter: grayscale(50px);
+             width: 50vw;
+             height: 50vh;
+         }
+         
+     }

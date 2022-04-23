@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+}
+
+#a {
+    background-color: #fff;
+    color: #fff;
+    transform: translate(0px, 0.6vh);
+    margin-right: 50vw;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition-delay: 0.1s;
+    transition: margin-right 0.4s;
+    height: 8vh; 
+}
+#a:hover{
+    margin-right: 50.3vw;
+    box-shadow: 5PX 2PX black;
+}
+#A1{
+    text-align: right;
+    margin-left: 48vw;
+    font-size: 28px;
+    color: transparent;
+    transition: color 0.4s;
+    margin-top: -7.8vh;
+    margin-left: 5vw;
+    height: 9vh;
+    margin-left: -5vw;
+}
+#A1:hover{
+    color:#000000;
+    
+}
+.shadow{
+    border-radius: 6px;
+    transition-delay: 0.1s;
+    transition: margin-right 0.5s;
+    
+    height: 8vh;
+}
+.shadow:hover{
+    box-shadow: 10px 10px rgb(0, 0, 0);
+    background-image: linear-gradient(to right , white,white,white,white,grey);
+}
+#b {
+    background-color: #fff;
+    color: #fff;
+    transform: translate(0px, 0.6vh);
+    margin-right: 50vw;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    transition-delay: 0.1s;
+    transition: margin-right 0.4s;
+    height: 8vh;
+
+}
+#b:hover{
+    margin-right: 50.3vw;
+    box-shadow: 5PX 2PX black;
+
+}
+#B1{
+    text-align: right;
+    margin-left: 48vw;
+    font-size: 28px;
+    color: transparent;
+    transition: color 0.4s;
+    margin-top: -7.8vh;
+    margin-left: 5vw;
+    height: 9vh;
+    margin-left: -5vw;
+}
+#B1:hover{
+    color:#000000
+}
+#c {
+    background-color: #fff;
+    color: #fff;
+    transform: translate(0px, 0.6vh);
+    margin-right: 50vw;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition-delay: 0.1s;
+    transition: margin-right 0.4s;
+    height: 8vh; 
+
+}
+#c:hover{
+    margin-right: 50.3vw;
+    box-shadow: 5PX 2PX black;
+}
+#C1{
+    text-align: right;
+    margin-left: 48vw;
+    font-size: 28px;
+    color: transparent;
+    transition: color 0.4s;
+    margin-top: -7.8vh;
+    margin-left: 5vw;
+    height: 9vh;
+    margin-left: -5vw;
+}
+#C1:hover{
+    color:#000000
+}
+#d {
+    background-color: #fff;
+    color: #fff;
+    transform: translate(0px, 0.6vh);
+    margin-right: 50vw;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition-delay: 0.1s;
+    transition: margin-right 0.4s;
+    height: 8vh; 
+
+}
+#d:hover{
+    margin-right: 50.3vw;
+    box-shadow: 5PX 2PX black;
+}
+#D1{
+    text-align: right;
+    margin-left: 48vw;
+    font-size: 28px;
+    color: transparent;
+    transition: color 0.4s;
+    margin-top: -7.8vh;
+    margin-left: 5vw;
+    height: 9vh;
+    margin-left: -5vw;
+
+}
+#D1:hover{
+    color:#000000
+}
+#e {
+    background-color: #fff;
+    color: #fff;
+    transform: translate(0px, 0.6vh);
+    margin-right: 50vw;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition-delay: 0.1s;
+    height: 8vh; 
+}
+#e:hover{
+    margin-right: 50.3vw;
+    box-shadow: 5PX 2PX black;
+}
+#E1{
+    text-align: right;
+    margin-left: 48vw;
+    font-size: 28px;
+    color: transparent;
+    transition: color 0.4s;
+    margin-top: -7.8vh;
+    margin-left: 5vw;
+    height: 9vh;
+    margin-left: -5vw;
+}
+#E1:hover{
+    color:#000000
+}
+#g {
+    background-color: #fff;
+    color: #fff;
+    transform: translate(0px, 0.6vh);
+    margin-right: 50vw;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition-delay: 0.1s;
+    transition: margin-right 0.4s;
+    height: 8vh; 
+
+}
+#g:hover{
+    margin-right: 50.3vw;
+    box-shadow: 5PX 2PX black;
+}
+#G1{
+    text-align: right;
+    margin-left: 48vw;
+    font-size: 28px;
+    color: transparent;
+    transition: color 0.4s;
+    margin-top: -7.8vh;
+    margin-left: 5vw;
+    height: 9vh;
+    margin-left: -5vw;
+}
+#G1:hover{
+    color:#000000
+}
+
+#h {
+    background-color: #fff;
+    color: #fff;
+    transform: translate(0px, 0.6vh);
+    margin-right: 50vw;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition-delay: 0.1s;
+    transition: margin-right 0.4s;
+    height: 8vh; 
+
+}
+#h:hover{
+    margin-right: 50.3vw;
+    box-shadow: 5PX 2PX black;
+}
+#H1{
+    text-align: right;
+    margin-left: 48vw;
+    font-size: 28px;
+    color: transparent;
+    transition: color 0.4s;
+    margin-top: -7.8vh;
+    margin-left: 5vw;
+    height: 9vh;
+    margin-left: -5vw;
+}
+#H1:hover{
+    color:#000000
+}
+#i {
+    background-color: #fff;
+    color: #fff;
+    transform: translate(0px, 0.6vh);
+    margin-right: 50vw;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition-delay: 0.1s;
+    transition: margin-right 0.4s;
+    height: 8vh; 
+
+}
+#i:hover{
+    margin-right: 50.3vw;
+    box-shadow: 5PX 2PX black;
+}
+#I1{
+    text-align: right;
+    margin-left: 48vw;
+    font-size: 28px;
+    color: transparent;
+    transition: color 0.4s;
+    margin-top: -7.8vh;
+    margin-left: 5vw;
+    height: 9vh;
+    margin-left: -5vw;
+}
+#I1:hover{
+    color:#000000
+}
+#j {
+    background-color: #fff;
+    color: #fff;
+    transform: translate(0px, 0.6vh);
+    margin-right: 50vw;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition-delay: 0.1s;
+    transition: margin-right 0.4s;
+    height: 8vh; 
+
+}
+#j:hover{
+    margin-right: 50.3vw;
+    box-shadow: 5PX 2PX black;
+}
+#J1{
+    text-align: right;
+    margin-left: 48vw;
+    font-size: 28px;
+    color: transparent;
+    transition: color 0.4s;
+    margin-top: -7.8vh;
+    margin-left: 5vw;
+    height: 9vh;
+    margin-left: -5vw;
+}
+#J1:hover{
+    color:#000000
+}
+#k {
+    background-color: #fff;
+    color: #fff;
+    transform: translate(0px, 0.6vh);
+    margin-right: 50vw;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition-delay: 0.1s;
+    transition: margin-right 0.4s;
+    height: 8vh; 
+
+}
+#k:hover{
+    margin-right: 50.3vw;
+    box-shadow: 5PX 2PX black;
+}
+#K1{
+    text-align: right;
+    margin-left: 48vw;
+    font-size: 28px;
+    color: transparent;
+    transition: color 0.4s;
+    margin-top: -7.8vh;
+    margin-left: 5vw;
+    height: 9vh;
+    margin-left: -5vw;
+}
+#K1:hover{
+    color:#000000
+}
+
+#l {
+    background-color: #fff;
+    color: #fff;
+    transform: translate(0px, 0.6vh);
+    margin-right: 50vw;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition-delay: 0.1s;
+    transition: margin-right 0.4s;
+    height: 8vh; 
+}
+#l:hover{
+    margin-right: 50.3vw;
+    box-shadow: 5PX 2PX black;
+}
+#L1{
+    text-align: right;
+    margin-left: 48vw;
+    font-size: 28px;
+    color: transparent;
+    transition: color 0.4s;
+    margin-top: -7.8vh;
+    margin-left: 5vw;
+    height: 9vh;
+    margin-left: -5vw;
+}
+#L1:hover{
+    color:#000000
+}
+
+#f1{
+    background-color: black;
+    transform: translate(0px,-88vh);
+    margin-right: 75vw;
+    border-radius: 3px;
+    transition: 0.3;
+    color: #000000;
+    text-align: right;
+}
+#f1:hover{
+    margin-right: 76.3vw;
+    color: #fff;
+
+}
+#f2{
+    background-color: black;
+    transform: translate(0px,-85vh);
+    margin-right: 75vw;
+    border-radius: 3px;
+    transition: 0.3;
+    color: #000000;
+    text-align: right;
+}
+#f2:hover{
+    margin-right: 76.3vw;
+    color: #fff;
+
+}
+#f3{
+    background-color: black;
+    transform: translate(0px,-65vh);
+    margin-right: 75vw;
+    border-radius: 3px;
+    transition: 0.3;
+    color: #000000;
+    text-align: right;
+}
+#f3:hover{
+    margin-right: 76.3vw;
+    color: #fff;
+}
+#f4{
+    background-color: black;
+    transform: translate(0px,-62vh);
+    margin-right: 75vw;
+    border-radius: 3px;
+    transition: 0.3;
+    color: #000000;
+    text-align: right;
+}
+#f4:hover{
+    margin-right: 76.3vw;
+    color: #fff;
+}
+#f5{
+    background-color: black;
+    transform: translate(0px,-41vh);
+    margin-right: 75vw;
+    border-radius: 3px;
+    transition: 0.3;
+    color: #000000;
+    text-align: right;
+}
+#f5:hover{
+    margin-right: 76.3vw;
+    color: #fff;
+
+}
+#f6{
+    background-color: black;
+    transform: translate(0px,-38vh);
+    margin-right: 75vw;
+    border-radius: 3px;
+    transition: 0.3;
+    color: #000000;
+    text-align: right;
+}
+#f6:hover{
+    margin-right: 76.3vw;
+    color: #fff;
+}

@@ -1,0 +1,16 @@
+header{
+    background-color: blue;
+    height: 10vw;
+}
+footer{
+    height: 13vw;
+    background-color: black;
+    color: red;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+H1{
+    color: red;
+    text-shadow: 2px 2px;
+}

@@ -1,0 +1,254 @@
+@keyframes animation-green {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: rgb(0, 255, 42);
+    }
+}
+
+#green {
+    background-color: black;
+    height: 20vh;
+    width: 50vw;
+    animation: animation-green 5s infinite alternate;
+}
+
+@keyframes animation-yellow {
+    0% {
+        background-color: blue;
+    }
+
+    35% {
+        background-color: green;
+    }
+
+    65% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+#yellow {
+    background-color: black;
+    height: 20vh;
+    width: 50vw;
+    animation: animation-yellow 5s infinite alternate;
+}
+
+@keyframes animation-blue {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#blue {
+    animation: animation-blue 5s infinite alternate;
+}
+
+@keyframes animation-pink {
+    from {
+        filter: drop-shadow(30px 10px 5px yellow);
+    }
+
+    to {
+        filter: drop-shadow(25px 15px 25px yellowgreen);
+    }
+}
+
+#dragon {
+    animation: animation-pink 5s infinite alternate;
+    display: block;
+}
+
+@keyframes animation-israel {
+    from {
+        filter: grayscale(0);
+    }
+
+    to {
+        filter: grayscale(1);
+    }
+}
+
+#israel {
+    width: 300px;
+    height: 250px;
+    animation: animation-israel 5s infinite alternate;
+}
+
+@keyframes animation-round {
+    from {
+        background-color: chocolate;
+        left: 0px;
+    }
+
+    to {
+        background-color: pink;
+        left: 200px;
+    }
+}
+
+#round {
+    position: relative;
+    width: 350px;
+    height: 300px;
+    animation: animation-round 5s infinite alternate;
+}
+
+@keyframes animation-up {
+    0% {
+        background-color: red;
+        top: 0px
+    }
+
+    35% {
+        background-color: rgb(8, 253, 0);
+    }
+
+    65% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: lightblue;
+        top: 200px
+    }
+}
+
+#up {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    animation: animation-up 5s infinite alternate;
+}
+
+@keyframes animation-shadow {
+    from {
+        filter: drop-shadow(10px 2px 3px black);
+    }
+
+    to {
+        filter: drop-shadow(5px 2px 35px yellow);
+    }
+}
+
+#shadow {
+    animation: animation-shadow 5s infinite alternate;
+}
+
+@keyframes animation-blur {
+    from {
+        filter: blur(10px);
+    }
+
+    to {
+        filter: blur(0px);
+    }
+}
+
+#blur {
+    animation: animation-blur 5s infinite alternate;
+}
+
+@keyframes animation-goku {
+    0% {
+        filter:brightness(100%) drop-shadow(10px 2px 3px rgb(255, 0, 0)); width: 100px; height: 100px;
+          
+    }
+    
+    100%{
+        filter: brightness(400%) drop-shadow(5px 2px 35px yellow); width: 200px; height: 200px;
+
+    }
+}
+
+ #goku {
+    width: 100px;
+    height: 100px;
+} 
+
+#goku:hover {
+    animation: animation-goku 5s infinite alternate;
+
+}
+@keyframes animation-width{
+    from{width: 30px;}
+    to{width: 100px;}
+}
+#width{
+    animation: animation-width 5s infinite alternate;
+    background-color: blue;
+    width: 30px;
+    height: 100px;
+}
+@keyframes animation-rohav{
+    0%{width: 10px;}
+    33%{width: 70px;}
+    66%{width: 30px;}
+    100%{width: 200px;}
+}
+#rohav{
+    animation:animation-rohav 5s infinite alternate;
+    width: 30px;
+    height: 100px;
+    background-color: brown;
+}
+@keyframes animation-israel{
+    from{filter: brightness(30%);}
+    to{filter:brightness(100%)}
+}
+#israel{
+    animation: animation-israel 5s infinite alternate;
+    width: 250px;
+    height: 200px;
+}
+@keyframes animation-harim{
+    from{width:100px;height: 50px;}
+    to{width: 250px;height: 200px;}
+}
+#harim{
+    width:100px;
+    height: 50px;
+    animation: animation-harim 5s infinite alternate;
+}
+@keyframes animation-yashan{
+    from{filter:blur(10px) grayscale(1)}
+    to{filter:blur(0px) grayscale(0)}
+}
+#yashan{
+    animation:animation-yashan 5s infinite alternate;
+    width: 250px;
+    height: 200px;
+}
+@keyframes animation-tedi{
+    from{width: 200px; height: 100px; }
+    to{width: 300px; height: 200px;transform: translate(150px)}
+
+}
+#tedi{
+    animation:animation-tedi 5s infinite alternate;
+    width:200px;
+    height: 100px;
+    background-color: rgb(247, 0, 0);
+}
+@keyframes animation-circle{
+    0%{transform: translate(0,-150px); width:50px ;height: 50px;}
+    50%{transform: translate(0px);width: 100px;height: 100px;}
+    100%{transform: translate(0,150px);width: 250px; height: 250px;}
+}
+#circle{
+    background-color: black;
+    border-radius: 100%;
+    animation: animation-circle 5s infinite alternate;
+    width: 100px;
+    height: 100px;
+}

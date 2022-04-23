@@ -1,0 +1,55 @@
+@media screen and (min-width:600px) {
+    #img{
+        width: 100px;
+        height: 100px;
+    }
+    
+}
+@media screen and (min-width:600px) {
+    #blue{
+        background-color: blue;
+        width: 50vw;
+        height: 30vh;
+    }
+    
+}
+@media screen and (min-width:600px) {
+    #green{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        color: #fff;
+    }
+    
+}
+@media screen and (min-width:600px) {
+    #fast{
+        background-image: url(Israel-mountains.jpg);
+        background-size: cover;
+        width: 50vw;
+        height: 30vh;
+    }
+    
+}
+@media screen and (min-width:600px) {
+    #blue2{
+        background-color: blue;
+        border: 5px solid;
+        border-radius: 100%;
+        width: 50vw;
+        height: 30vh;
+    }
+    
+}
+@media screen and (min-width:600px) {
+    #filter{
+        filter: blur(1.5px);
+    }
+    
+}
+@media screen and (min-width:600px) {
+    #a{
+        display: flex;
+        direction: rtl;
+    }
+    
+}

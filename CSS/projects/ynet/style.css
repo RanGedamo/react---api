@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    word-spacing: 60px;
+    text-align: center;
+    background-color: rgb(222, 26, 26);
+    color: #fff;
+    width: 1314px;
+    margin: 2vh;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#p {
+    display: flex;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
+    margin-right: 5vh;
+    margin-left: 5vh;
+    text-align: right;
+}
+
+#p7 {
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 115vh;
+    margin-right: 10vh;
+    display: flex;
+}
+
+#span1 {
+    margin-left: 133vh;
+    margin-right: 9vh;
+    display: flex;
+    word-spacing: 3px;
+    text-align: right;
+    font-size: 17px;
+
+}
+
+#img1 {
+    display: flex;
+    margin-top: -16vw;
+    margin-left: 4vw;
+}
+
+#gdm {
+    display: flex;
+    margin-right: 1px;
+    margin-top: 1vw;
+    margin-left: 150vh;
+}
+
+#shuk {
+    display: flex;
+    margin-top: -42.4vw;
+    margin-left: 101vh;
+}
+
+#polii {
+    margin-top: 1vw;
+    margin-left: 101vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 62vh;
+    text-align: right;
+}
+.hurovich{
+    margin-top: -33vw;
+    margin-left: 6vh;
+    margin-right: 141.9vh;
+    background-color: rgb(222, 26, 26);
+    display: flex;
+    height: 17.9vh;
+}
+#hu{
+    margin-left: 62vh;
+}
+#beni{
+    margin-top: -8vw;
+    margin-right: 144vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+}
+#span2{
+    margin-left: 6vh;
+    margin-right: 144vh;
+    margin-top: 1vh;
+    text-align: right;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+#lifol{
+    margin-left: 62vh;
+    
+}
+#lifol1{
+    background-color: rgb(34, 13, 221);
+    margin-top: 4vw;
+    margin-left: 6vh;
+    margin-right: 111vh;
+    height: 17.6vh;
+    
+}
