@@ -1,0 +1,45 @@
+body{
+    background-image: url(/תמונות/protest-4343182_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1{
+    font-size: 25vh;
+    font-size: 10vw;
+    color: azure;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+@keyframes animation-header {
+    0%{
+        background-image: url(/תמונות/35529280100996640360no.jpg);
+        width: auto;
+        height: 25vh;
+    }
+    100%{
+        background-image: url(/תמונות/222.png);
+        width: auto;
+        height: 25vh;
+    }
+}
+header{
+    animation: animation-header 7s infinite alternate;
+    height: 25vh;
+    width: auto;
+}
+.videos{
+    flex-direction: column;
+    justify-content: center;
+}
+.links-img{
+    width:40%;
+    
+}
+.link-img{
+    width:40%;
+}
+@media screen and (max-width:600px) {
+    footer{
+        position: sticky;
+        bottom: 0;
+    }
+}

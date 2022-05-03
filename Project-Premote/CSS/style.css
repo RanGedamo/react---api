@@ -1,0 +1,131 @@
+
+body{
+    background-image: url(/תמונות/protest-4343182_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1{
+    font-size: 25vh;
+    font-size: 10vw;
+    color: azure;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+@keyframes animation-h2 {
+    0%{
+        filter: drop-shadow(0 0 0.75rem green);
+    }
+    50%{
+        filter: drop-shadow(0 0 0.75rem yellow);
+    }
+    100%{
+        filter: drop-shadow(0 0 0.75rem red);
+    }
+}
+.im{
+    animation: animation-h2 8s infinite;
+}
+.home{
+    font-size: 6vh;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:1px double rgb(88, 77, 77);
+    color: rgb(253, 254, 255);
+    filter: drop-shadow(0 0 0.75rem rgb(44, 40, 40));
+}
+
+@keyframes animation-header {
+    0%{
+        background-image: url(/תמונות/35529280100996640360no.jpg);
+        width: auto;
+        height: 25vh;
+    }
+    100%{
+        background-image: url(/תמונות/222.png);
+        width: auto;
+        height: 25vh;
+    }
+    
+}
+header{
+    animation: animation-header 7s infinite alternate;
+    height: 25vh;
+    width: auto;
+}
+.nav{
+    display: flex;
+}
+.navbar11{
+    display: none;
+}
+@keyframes animation-home {
+    0%{
+        background-image: url(/תמונות/74a65fb5601a6ec979b68480e3635ea9-e1574849024769.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(/תמונות/fdca3dce2cf71.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(/תמונות/mom.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(/תמונות/study.jpg);
+        /* background-size: cover; */
+        background-position: center;
+
+    }
+    100%{
+        background-image: url(/תמונות/כייס.jpg);
+        /* background-size: cover; */
+        background-position: center;
+    }
+}
+.animations{
+    animation: animation-home 12s infinite;
+    width: 45vw;
+    height: 50vh;
+    justify-content: right;
+}
+.p1{
+    justify-content: start;
+    width: 40.7vw;
+    height: 50vh;
+    font-size: 2.5vh;
+    font-size: 1.2vw;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.links-img{
+    width:40%;
+    
+}
+.link-img{
+    width:40%;
+}
+
+@media screen and (max-width:700px) {
+    .animation-p1{
+        width: 100%;
+        height: 100%;
+        flex-direction:column-reverse;
+        transform: translate(15vw);
+
+    }
+    .p1{
+        background-color: azure;
+        width: 78vw;
+        font-size: 2.4vw;
+    }
+    .animations{
+        width: 78vw;
+        min-height: 10vh;
+    }
+    footer{
+        position: sticky;
+        bottom: 0;
+    }
+}

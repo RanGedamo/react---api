@@ -1,0 +1,106 @@
+body{
+    background-image: url(/תמונות/protest-4343182_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    
+}
+h1{
+    font-family:  'Montserrat-black', ;
+    font-size: 3.5rem;  
+    line-height:1.5;  
+    
+ 
+}
+h2{
+    font-family:  'Montserrat-black', ;
+    line-height:1.2; 
+    padding-top: 20px;
+  
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #BBBFCA;
+    line-height: 2;
+  
+}
+@keyframes animation-header {
+    0%{
+        background-image: url(/תמונות/35529280100996640360no.jpg);
+        width: auto;
+        height: 25vh;
+    }
+    100%{
+        background-image: url(/תמונות/222.png);
+        width: auto;
+        height: 25vh;
+    }
+    
+}
+header{
+    animation: animation-header 7s infinite alternate;
+    height: 25vh;
+    width: auto;
+}
+.h3{
+    font-size: 25vh;
+    font-size: 10vw;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+.links-img{
+    width:40%;
+    
+}
+.link-img{
+    width:40%;
+}
+#main{
+    padding-top: 10vh;
+}
+.pic-top{
+    width:70%;
+    border-radius: 10%;
+    box-shadow: #000 10px 20px 20px;
+}
+#carousel-section{
+    text-align:center;
+    padding: 7% 15%;
+}
+
+.carousel-item{
+
+    padding: 7% 15%;
+}
+.carousel-image{
+    width:80%;
+    border-radius:5%;
+    margin:20px;
+}
+
+#partners{
+    text-align:center;
+    background-color: #ef8172;
+    padding-bottom:3%;
+    
+}
+
+.partners-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#team-developer{
+    padding-top: 20px;
+}
+.team-img{
+    width: 80%;
+    border-radius: 100%;
+}
+@media screen and (max-width:600px) {
+    footer{
+        position: sticky;
+        bottom: 0;
+    }
+    
+}

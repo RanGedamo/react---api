@@ -1,0 +1,106 @@
+body{
+    background-image: url(/תמונות/protest-4343182_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes animation-header {
+    0%{
+        background-image: url(/תמונות/35529280100996640360no.jpg);
+        width: auto;
+        height: 25vh;
+    }
+    100%{
+        background-image: url(/תמונות/222.png);
+        width: auto;
+        height: 25vh;
+    }
+    
+}
+header{
+    animation: animation-header 7s infinite alternate;
+    height: 25vh;
+    width: auto;
+}
+.h1{
+    font-size: 18vh;
+    font-size: 7vw;
+    color: azure;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+.aliyah-h1{
+    font-family:  'Montserrat-black', ;
+    font-size:3.5rem;  
+    line-height:1.5;  
+    text-align: center;
+    color: #fff;
+}
+h3{
+    font-family:  'Montserrat-black', ;
+    line-height:1.5; 
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+.links-img{
+    width:40%;
+    
+}
+.link-img{
+    width:40%;
+}
+.video2 .video1{
+    width:50vw;
+    height: 50vh;
+
+}
+.aliyah-img-top{
+    width: 80%;
+    border-radius: 20%;
+}
+@keyframes change-img{
+    0%{background-image:url(/תמונות/עלייה.jpg);
+    background-size: cover;
+    }
+    25%{background-image: url(/תמונות/עלייה7.jpg);
+        background-size: cover;
+    }
+    50%{background-image: url(/תמונות/עלייה2.jpg);
+        background-size: cover;
+    }
+    75%{background-image: url(/תמונות/עלייה5.webp);
+        background-size: cover;
+    }
+    100%{background-image: url(/תמונות/עלייה4.jpg);
+        background-size: cover;
+    }
+    
+}
+#changes-img{
+    animation:change-img infinite 15s alternate-reverse;
+    background-image:url(/תמונות/עלייה.jpg);
+    height: 58vh;
+    padding: 0;
+}
+.card-images{
+    width:80%;
+    border-radius:5%;
+}
+
+.story-part{
+    border:#fff 1px solid;
+}
+@media screen and (max-width:600px) {
+    .video2{
+        width:80vw;
+        height: 50vh;
+    }
+    .video1{
+        width:80vw;
+        height: 50vh;
+    }
+    footer{
+        position: sticky;
+        bottom: 0;
+    }
+    
+}
