@@ -8,9 +8,22 @@
 </head>
 <body>
     <script>
-        function print(){
-            
+        function print(num){
+            for(var i = 0;i<num;i++){
+            var apartments ={
+                address: prompt("anter address"),
+                rentprice: prompt("anter tent of price"),
+                buyprice: prompt("anter buy price"),
+                intrestedppl:[prompt("name?"),prompt("name?"),prompt("name?")],
+                istivuch: confirm("is tivuch?"),
+            };
+            if(!apartments.istivuch){
+                document.write("<br>");
+            }
         }
+    }
+        print(5)
+
     </script>
 </body>
 </html>
