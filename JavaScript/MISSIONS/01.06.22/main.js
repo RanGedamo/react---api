@@ -89,4 +89,3 @@ num.onclick = function () {
 }
 }
 
-...
