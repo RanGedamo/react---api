@@ -88,3 +88,5 @@ num.onclick = function () {
     h2.textContent+=numb
 }
 }
+
+...
