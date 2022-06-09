@@ -80,12 +80,30 @@
 
 //--9--//
 
-for(let i = 0 ;i<5;i++){
-const num = document.getElementById("button");
-num.onclick = function () {
-    const numb = document.getElementById("num1").value;
-    const h2 = document.getElementById("h2");
-    h2.textContent+=numb
-}
-}
+
+// const numArray = [];
+
+// const num = document.getElementById("button");
+//     // for (var i = 0; i < 1 ; i++) {
+
+// num.onclick = function print() {
+//     // for (var i = 0; i < 1 ; i++) {
+//         h2.textContent += num1.value
+//         numArray.push(num1.value)
+//         h2.innerHTML+=numArray[i]
+//         if(numArray[i]>5){
+//             num.removeEventListener("click",print)
+//         }
+//         if (i == 5) {
+//             var rnbNum = Math.floor(Math.random() * 57);
+//             rnb.innerHTML = rnbNum
+//         }
+//     }
+// // }
+// var rnbNum = Math.floor(Math.random() * 57);
+// rnb.innerHTML = rnbNum
+
+
+
+
 
