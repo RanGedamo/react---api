@@ -17,12 +17,11 @@
 //     }
 // }
 
-// box2.onclick = function  setBg() {
-//     var arraycolors = ['red','blue','green','yellow']
-//     var randomColor = Math. floor(Math. random()*5);
-//     box2. style. backgroundColor = arraycolors[randomColor]
-
-// }
+box2.onclick = function  setBg() {
+    var arraycolors1 = ['red','blue','green','yellow']
+    var randomColor = Math. floor(Math. random()*5);
+    box2. style. backgroundColor = arraycolors[randomColor1]
+}
 
 
 
