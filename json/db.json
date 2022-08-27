@@ -1,0 +1,182 @@
+
+{
+    "horticulture": [
+        {
+            "name": "marina",
+            "lname": "brazilay",
+            "phone":"052-4884565",
+            "img": "https://img.haarets.co.il/bs/0000017f-dbe5-db5a-a57f-dbef240b0000/95/9d/c4d18009afc98505359ffb498e5d/178678025.jpg?precrop=1468,1462,x0,y268&height=700&width=700",
+            "stars": 5
+        },
+        {
+            "name": "svetlana",
+            "lname": "shimoni",
+            "phone":"052-558565",
+            "img": "https://www.kan-ashdod.co.il/wp-content/uploads/2018/08/54f8f03d7f4e2d6feb4a8e06f7292d3c-e1535715926358.jpg",
+            "stars": 5
+        },
+        {
+            "name": "meirav",
+            "lname": "cohen",
+            "phone":"053-4777665",
+            "img": "https://www.davar1.co.il/wp-content/uploads/2017/09/1320917_kindergarten-1026x684.jpg",
+            "stars": 5
+        },
+        {
+            "name": "simcha",
+            "lname": "levy",
+            "phone":"058-8894631",
+            "img": "https://www.kan-ashdod.co.il/wp-content/uploads/2018/08/4f84744c130b496f99ccbb68279c17c5.jpeg",
+            "stars": 5
+        }
+    ]
+    ,
+    "layers1":[
+        {
+            "name":"shlomo",
+            "lname":"levy",
+            "age":2,
+            "phone":"052-222448"
+        },{
+            "name":"ziv",
+            "lname":"aharon",
+            "age":1.3,
+            "phone":"052-558468"
+        },{
+            "name":"roi",
+            "lname":"mekonen",
+            "age":3,
+            "phone":"052-8753141"
+        },{
+            "name":"avi",
+            "lname":"zrihon",
+            "age":2,
+            "phone":"053-879465"
+        },{
+            "name":"amir",
+            "lname":"shushan",
+            "age":2,
+            "phone":"054-113355"
+        },{
+            "name":"shlomi",
+            "lname":"cohen",
+            "age":3,
+            "phone":"052-887794"
+        },{
+            "name":"oded",
+            "lname":"tzhay",
+            "age":1,
+            "phone":"050-88794"
+        },{
+            "name":"aviv",
+            "lname":"mahari",
+            "age":2.2,
+            "phone":"052-556687"
+        },{
+            "name":"hen",
+            "lname":"avel",
+            "age":1,
+            "phone":"059-222448"
+        },{
+            "name":"kobi",
+            "lname":"avata",
+            "age":2,
+            "phone":"051-888794"
+        }
+    ], "layers2":[
+        {
+            "name":"shachar",
+            "lname":"levy",
+            "age":2,
+            "phone":"052-222448"
+        },{
+            "name":"yacov",
+            "lname":"aharon",
+            "age":1.3,
+            "phone":"052-558468"
+        },{
+            "name":"natan",
+            "lname":"mekonen",
+            "age":3,
+            "phone":"052-8753141"
+        },{
+            "name":"kobi",
+            "lname":"zrihon",
+            "age":2,
+            "phone":"053-879465"
+        },{
+            "name":"ronen",
+            "lname":"shushan",
+            "age":2,
+            "phone":"054-113355"
+        },{
+            "name":"yair",
+            "lname":"cohen",
+            "age":3,
+            "phone":"052-887794"
+        },{
+            "name":"yoni",
+            "lname":"tzhay",
+            "age":1,
+            "phone":"050-88794"
+        },{
+            "name":"ron",
+            "lname":"mahari",
+            "age":2.2,
+            "phone":"057-546456456"
+        },{
+            "name":"hen",
+            "lname":"avel",
+            "age":1,
+            "phone":"055-222448"
+        },{
+            "name":"kobi",
+            "lname":"avata",
+            "age":2,
+            "phone":"057-4546884"
+        }
+    ],
+    "committee":[
+        {
+            "name":"simcha",
+            "lname":"shimoni",
+            "phone":"050-5522346"
+        },  {
+            "name":"marina",
+            "lname":"kakun",
+            "phone":"050-55677"
+        },  {
+            "name":"aviva",
+            "lname":"levy",
+            "phone":"058-6684945"
+        },  {
+            "name":"hani",
+            "lname":"aviu",
+            "phone":"051-5567746"
+        },  {
+            "name":"amaresh",
+            "lname":"zhudu",
+            "phone":"055-5568923"
+        },  {
+            "name":"titi",
+            "lname":"ayanau",
+            "phone":"058-6689422"
+        },  {
+            "name":"aviya",
+            "lname":"cohen",
+            "phone":"052-6697823"
+        },  {
+            "name":"shushana",
+            "lname":"zrihun",
+            "phone":"050-6689755"
+        },  {
+            "name":"hen",
+            "lname":"simhi",
+            "phone":"050-7894563"
+        },  {
+            "name":"mariya",
+            "lname":"saharov",
+            "phone":"052-3321567"
+        }
+    ]
+}
